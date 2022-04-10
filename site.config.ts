@@ -55,10 +55,6 @@ export default siteConfig({
       pageId: '46fa16f466e14bb685d84bc76a1cbf5d'
     },
     {
-      title: 'Blogs',
-      pageId: 'c35ed080e5fe45a48db28b12b334c136'
-    },
-    {
       title: 'Notes',
       pageId: '9830f61322cf431d8bd3a68552c13a9c'
     },
