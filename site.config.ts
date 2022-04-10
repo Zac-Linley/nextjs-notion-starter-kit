@@ -2,29 +2,29 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '46fa16f466e14bb685d84bc76a1cbf5d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '6fa491fc2fa74bc19d4391df4a286a1a',
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Linley',
+  domain: 'www.lzxblog.top',
+  author: 'Linley',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Personal site of Travis Fischer aka Transitive Bullshit',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'Zab-Linley',
+  linkedin: '智鑫-林-470a38221',
+  zhihu: 'zhixinlin',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://transitivebullsh.it/page-icon.png',
+  defaultPageCover: 'https://transitivebullsh.it/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -39,24 +39,36 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    // '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+    // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+    '/航班熔断统计': '14e068a3c1f24e98a6853d770de8d6d6'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Home',
+      pageId: '46fa16f466e14bb685d84bc76a1cbf5d'
+    },
+    {
+      title: 'Blogs',
+      pageId: 'c35ed080e5fe45a48db28b12b334c136'
+    },
+    {
+      title: 'Notes',
+      pageId: '9830f61322cf431d8bd3a68552c13a9c'
+    },
+    {
+      title: 'Covid-19',
+      pageId: '3bdc8aef8fc64fdfb287dd80e420b723'
+    },
+    {
+      title: 'Contact',
+      pageId: 'c6cff7c85bb34b04a47c6006f7293fd7'
+    }
+  ]
 })
