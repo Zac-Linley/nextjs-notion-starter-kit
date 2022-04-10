@@ -42,7 +42,9 @@ export default siteConfig({
   pageUrlOverrides: {
     // '/foo': '067dd719a912471ea9a3ac10710e7fdf',
     // '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-    '/航班熔断统计': '14e068a3c1f24e98a6853d770de8d6d6'
+    '/notes': '9830f61322cf431d8bd3a68552c13a9c',
+    '/covid-19':'3bdc8aef8fc64fdfb287dd80e420b723',
+    '/contact': 'c6cff7c85bb34b04a47c6006f7293fd7'
   },
   // pageUrlOverrides: null,
 
